@@ -79,18 +79,28 @@
 
    }
 
-   .canada_day {
+
+   .canada_section h4 {
+     margin: 0px;
+     padding: 15px;
+   }
+
+   .canada_day  {
      text-align: center;
-     font-size: 34px;
-     color: red;
+     font-size: 50px;
+     color: white;
+     background-color: red;
+     padding: 10px;
 
    }
 
 
-   .canada_day .img-circle {
+   .canada_day .img-thumbnail {
      border: solid red 5px;
      width: 5em;
      height: 5em;
+     padding: 10px;
+     margin: 5px;
    }
 
 
@@ -337,8 +347,8 @@
   }
 
   .img-circle {
-  width: 11em;
-  height: 11em;
+  width: 9em;
+  height: 9em;
   margin: 8px;
   border: solid #00558a 5px;
   }
@@ -346,12 +356,12 @@
   .canada_day {
     text-align: center;
     font-size: 16px;
-    color: red;
+    color: white;
 
   }
 
 
-  .canada_day .img-circle {
+  .canada_day .img-thumbnail {
     display: none;
   }
 
