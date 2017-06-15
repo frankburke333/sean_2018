@@ -79,6 +79,19 @@
 
    }
 
+   .canada_day {
+     text-align: center;
+     font-size: 34px;
+     color: red;
+
+   }
+
+
+   .canada_day .img-circle {
+     border: solid red 5px;
+     width: 5em;
+     height: 5em;
+   }
 
 
    .six {
@@ -184,7 +197,7 @@
       text-align: center;
       font-size: 8em;
       -webkit-text-stroke: 0.3px white;
-      background-color: #004681;
+      background-color: #004582;
       margin: 0px;
 
     }
@@ -329,4 +342,17 @@
   margin: 8px;
   border: solid #00558a 5px;
   }
+
+  .canada_day {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+
+  }
+
+
+  .canada_day .img-circle {
+    display: none;
+  }
+
 }
