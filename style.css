@@ -1,7 +1,8 @@
 
 
  html {
-   background-color: #004681;
+   background-color: #004582;
+
 
  }
 
@@ -60,7 +61,7 @@
      color: #f87c20;
      text-align: center;
      font-size: 89px;
-     font-family: 'Wendy One', cursive;
+     font-family: 'Righteous', cursive;
      padding: 28px;
      border: solid #004681 5px;
      border-radius: 15px;
@@ -69,10 +70,12 @@
    .update {
      text-align: left;
      font-size: 30px;
-     font-family: 'Wendy One', cursive;
+     font-family: 'Righteous', cursive;
      background-color: white;
      color: #004681;
      padding: 11px;
+     border: #004582 solid 6px;
+     margin: 5px;
 
    }
 
@@ -82,7 +85,7 @@
      color: #00558a;
      text-align: center;
      font-size: 69px;
-     font-family: 'Wendy One', cursive;
+     font-family: 'Roboto', cursive;
      padding: 30px;
    }
 
@@ -91,7 +94,7 @@
 
    #profile {
      background-color: white;
-     font-family: 'Righteous', cursive;
+     font-family: 'Roboto', cursive;
      font-size: 22px;
      border: solid black 2px;
      text-align: center;
@@ -109,18 +112,32 @@
     color: white;
     text-align: center;
     background-color: #00558a;
+    font-family: 'Roboto', cursive;
+
   }
 
   .answer {
     color: #ff610c;
     text-align: center;
     font-size: 24px;
-    height: 65px;
+    height: 45px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
+    font-size: 24px;
+    height: 70px;
+    font-family: 'Roboto', cursive;
+
+
   }
 
   .name {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   @media screen and (min-width: 700px) {
@@ -283,4 +300,33 @@
     padding: 30px;
   }
 
+
+  .question {
+    font-size: 22px;
   }
+
+  .answer {
+    color: #ff610c;
+    text-align: center;
+    font-size: 22px;
+    height: 55px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
+    font-size: 20px;
+    height: 75px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .img-circle {
+  width: 11em;
+  height: 11em;
+  margin: 8px;
+  border: solid #00558a 5px;
+  }
+}
