@@ -1,7 +1,7 @@
 
 
  html {
-   background-color: #004a92;
+   background-color: #00528a;
 
 
  }
@@ -11,7 +11,7 @@
    .image {
       width: 100%;
       text-align: center;
-      background-color: #004a92;
+      background-color: #00528a;
    }
 
    .fox {
@@ -52,7 +52,7 @@
      text-align: center;
      font-size: 8em;
      -webkit-text-stroke: 0.3px white;
-     background-color: #004a92;
+     background-color: #00528a;
      margin: 0px;
 
    }
@@ -66,7 +66,7 @@
      text-align: center;
      font-size: 5em;
      -webkit-text-stroke: 0.3px white;
-     background-color: #004a92;
+     background-color: #00528a;
      margin: 0px;
 
    }
@@ -79,7 +79,7 @@
      font-size: 85px;
      font-family: 'Spicy Rice', cursive;
      padding: 28px;
-     border: solid #004a92 5px;
+     border: solid #00528a 5px;
      border-radius: 15px;
      background-color: rgba(0, 74, 146, 0.08);
    }
@@ -91,7 +91,7 @@
      background-color: white;
      color: #004681;
      padding: 11px;
-     border: #004a92 solid 6px;
+     border: #00528a solid 6px;
      margin: 5px;
      font-weight: bold;
 
@@ -112,14 +112,14 @@
      text-align: center;
      font-size: 50px;
      color: white;
-     background-color: #004a92;
+     background-color: #00528a;
      padding: 10px;
 
    }
 
 
    .canada_day .img-thumbnail {
-     border: solid #004a92 5px;
+     border: solid #00528a 5px;
      width: 5em;
      height: 5em;
      padding: 10px;
@@ -128,7 +128,7 @@
 
 
    .six {
-     color: #004a92;
+     color: #00528a;
      text-align: center;
      font-size: 89px;
      font-family: 'Roboto', cursive;
@@ -152,12 +152,12 @@
   width: 13em;
   height: 13em;
   margin: 8px;
-  border: solid ##004a92 5px;
+  border: solid ##00528a 5px;
   }
   .question {
     color: white;
     text-align: center;
-    background-color: #004a92;
+    background-color: #00528a;
     font-family: 'Roboto', cursive;
 
   }
@@ -184,7 +184,7 @@
   .name {
     font-weight: bold;
     font-size: 30px;
-    color: #004a92;
+    color: #00528a;
   }
 
   .hometown_header {
@@ -210,7 +210,7 @@
     .image {
        width: 100%;
        text-align: center;
-       background-color: #004a92;
+       background-color: #00528a;
     }
 
     .fox {
@@ -250,7 +250,7 @@
       text-align: center;
       font-size: 8em;
       -webkit-text-stroke: 0.3px white;
-      background-color: #004a92;
+      background-color: #00528a;
       margin: 0px;
 
     }
@@ -263,19 +263,19 @@
       text-align: center;
       font-size: 5em;
       -webkit-text-stroke: 0.3px white;
-      background-color: #004a92;
+      background-color: #00528a;
       margin: 0px;
 
     }
 
 
     .six {
-      color: #004a92;
+      color: #00528a;
       text-align: center;
       font-size: 69px;
       font-family: 'Wendy One', cursive;
       padding: 60px;
-      border: solid #004a92 25px;
+      border: solid #00528a 25px;
       margin-bottom: -5px;
       margin-top: -5px;
 }
@@ -302,12 +302,12 @@
    width: 13em;
    height: 13em;
    margin: 8px;
-   border: solid #004a92 5px;
+   border: solid #00528a 5px;
    }
    .question {
      color: white;
      text-align: center;
-     background-color: #004a92;
+     background-color: #00528a;
    }
 
    .answer {
@@ -331,7 +331,7 @@
     text-align: center;
     font-size: 1em;
     -webkit-text-stroke: 0.3px white;
-    background-color: #004a92;
+    background-color: #00528a;
     margin: 0px;
     margin-bottom: -11px;
     padding: 1em;
@@ -360,7 +360,7 @@
   }
 
   .six_small {
-    color: #004a92;
+    color: #00528a;
     text-align: center;
     font-size: 28px;
     font-family: 'Wendy One', cursive;
@@ -379,7 +379,7 @@
   }
 
   .update {
-    color: #004a92;
+    color: #00528a;
     text-align: left;
     font-size: 23px;
     font-family: Arial, cursive;
@@ -413,7 +413,7 @@
   width: 9em;
   height: 9em;
   margin: 8px;
-  border: solid #004a92 5px;
+  border: solid #00528a 5px;
   }
 
   .canada_day {
