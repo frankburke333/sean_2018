@@ -57,6 +57,22 @@
 
    }
 
+   .sub_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 5em;
+     -webkit-text-stroke: 0.3px white;
+     background-color: #004a92;
+     margin: 0px;
+
+   }
+
+
+
    .update h3 {
      color: #f87c20;
      text-align: center;
@@ -190,7 +206,7 @@
    margin-top:-480px;  /* your iframe height */
 }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 416px) {
     .image {
        width: 100%;
        text-align: center;
@@ -238,6 +254,20 @@
       margin: 0px;
 
     }
+
+    .sub_header h5{
+      left: 0;
+      width: 100%;
+      font-family: 'Rancho', helvetica, cursive;
+      color: #f7a31c;
+      text-align: center;
+      font-size: 5em;
+      -webkit-text-stroke: 0.3px white;
+      background-color: #004a92;
+      margin: 0px;
+
+    }
+
 
     .six {
       color: #004a92;
