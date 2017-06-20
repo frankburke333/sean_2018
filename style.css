@@ -106,14 +106,18 @@
    .canada_section h4 {
      margin: 0px;
      padding: 15px;
+     font-family: 'Rancho', arial;
+     font-size: 4em;
+
+
    }
 
    .canada_day  {
      text-align: center;
-     font-size: 50px;
      color: white;
      background-color: #00528a;
      padding: 10px;
+
 
    }
 
@@ -418,8 +422,9 @@
 
   .canada_day {
     text-align: center;
-    font-size: 16px;
+    font-size: 4em;
     color: white;
+    font-family: 'Rancho', arial;
 
   }
 
