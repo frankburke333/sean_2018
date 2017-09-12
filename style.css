@@ -8,6 +8,7 @@
 
 
 
+
    .image {
       width: 100%;
       text-align: center;
@@ -69,7 +70,12 @@
 
    }
 
+   .coming_soon {
+     font-size: 2em;
+     text-align: center;
+   }
 
+   
 
    .update h3 {
      color: #f87c20;
@@ -167,8 +173,8 @@
   .answer {
     color: #ff610c;
     text-align: center;
-    font-size: 24px;
-    height: 45px;
+    font-size: 25px;
+    height: 57px;
     font-family: 'Roboto', cursive;
 
   }
@@ -199,6 +205,8 @@
     margin: 60px;
   }
 
+
+
   .overlay {
    background:transparent;
    position:relative;
@@ -214,6 +222,7 @@
        text-align: center;
        background-color: #00528a;
     }
+
 
     .fox {
       width: 100%;
@@ -432,4 +441,109 @@
     display: none;
   }
 
+}
+
+
+.ottawa_update {
+  display: none;
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Wendy One', cursive;
+    font-size: 2.3em;
+    margin: 1.4em;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.tab button {
+
+}
+#summer_img {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+.congrats {
+  font-family: 'Wendy One', arial;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* js slide show */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 80%;
+  border: 0;
+  height: 25em;
+  margin-left: 10%
+
+  }
+
+a {
+  font-size: 1.6em;
+  text-align: center;
+  margin-left: 25%
 }
