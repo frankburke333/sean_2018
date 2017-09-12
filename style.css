@@ -1,16 +1,18 @@
 
 
  html {
-   background-color: #004681;
+   background-color: #00528a;
+
 
  }
+
 
 
 
    .image {
       width: 100%;
       text-align: center;
-      background-color: #004681;
+      background-color: #00528a;
    }
 
    .fox {
@@ -50,39 +52,94 @@
      color: #f7a31c;
      text-align: center;
      font-size: 8em;
-     -webkit-text-stroke: 0.3px white;
-     background-color: #004681;
+     background-color: #00528a;
      margin: 0px;
 
    }
 
+   .sub_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 5em;
+     background-color: #00528a;
+     margin: 0px;
+
+   }
+
+   .coming_soon {
+     font-size: 2em;
+     text-align: center;
+   }
+
+
+
    .update h3 {
      color: #f87c20;
      text-align: center;
-     font-size: 89px;
-     font-family: 'Wendy One', cursive;
+     font-size: 85px;
+     font-family: 'Spicy Rice', cursive;
      padding: 28px;
-     border: solid #004681 5px;
+     border: solid #00528a 5px;
      border-radius: 15px;
+     background-color: rgba(0, 74, 146, 0.08);
    }
 
    .update {
      text-align: left;
      font-size: 30px;
-     font-family: 'Wendy One', cursive;
+     font-family: 'Roboto', cursive;
      background-color: white;
      color: #004681;
      padding: 11px;
+     border: #00528a solid 6px;
+     margin: 5px;
+     font-weight: bold;
 
+   }
+
+   .update li {
+     font-family: 'Roboto', cursive;
    }
 
 
 
-   .six {
-     color: #00558a;
+   .canada_section h4 {
+     margin: 0px;
+     padding: 15px;
+     font-family: 'Rancho', arial;
+     font-size: 4em;
+
+
+   }
+
+   .canada_day  {
      text-align: center;
-     font-size: 69px;
-     font-family: 'Wendy One', cursive;
+     color: white;
+     background-color: #00528a;
+     padding: 10px;
+
+
+   }
+
+
+   .canada_day .img-thumbnail {
+     border: solid #00528a 5px;
+     width: 5em;
+     height: 5em;
+     padding: 10px;
+     margin: 5px;
+   }
+
+
+   .six {
+     color: #00528a;
+     text-align: center;
+     font-size: 89px;
+     font-family: 'Roboto', cursive;
      padding: 30px;
    }
 
@@ -91,7 +148,7 @@
 
    #profile {
      background-color: white;
-     font-family: 'Righteous', cursive;
+     font-family: 'Roboto', cursive;
      font-size: 22px;
      border: solid black 2px;
      text-align: center;
@@ -103,32 +160,69 @@
   width: 13em;
   height: 13em;
   margin: 8px;
-  border: solid #00558a 5px;
+  border: solid ##00528a 5px;
   }
   .question {
     color: white;
     text-align: center;
-    background-color: #00558a;
+    background-color: #00528a;
+    font-family: 'Roboto', cursive;
+
   }
 
   .answer {
     color: #ff610c;
     text-align: center;
+    font-size: 25px;
+    height: 57px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
     font-size: 24px;
-    height: 65px;
+    height: 70px;
+    font-family: 'Roboto', cursive;
+
+
   }
 
   .name {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
+    color: #00528a;
   }
 
-  @media screen and (min-width: 700px) {
+  .hometown_header {
+    color: #ff610c;
+    text-align: center;
+    font-size: 33px;
+    height: 45px;
+    font-family: 'Roboto', cursive;
+    text-align: center;
+    margin: 60px;
+  }
+
+
+
+  .overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+
+  @media screen and (min-width: 416px) {
     .image {
        width: 100%;
        text-align: center;
-       background-color: #004681;
+       background-color: #00528a;
     }
+
 
     .fox {
       width: 100%;
@@ -166,19 +260,34 @@
       color: #f7a31c;
       text-align: center;
       font-size: 8em;
-      -webkit-text-stroke: 0.3px white;
-      background-color: #004681;
+      background-color: #00528a;
       margin: 0px;
 
     }
 
+    .sub_header h5{
+      left: 0;
+      width: 100%;
+      font-family: 'Rancho', helvetica, cursive;
+      color: #f7a31c;
+      text-align: center;
+      font-size: 5em;
+      background-color: #00528a;
+      margin: 0px;
+
+    }
+
+
     .six {
-      color: #00558a;
+      color: #00528a;
       text-align: center;
       font-size: 69px;
       font-family: 'Wendy One', cursive;
-      padding: 30px;
-    }
+      padding: 60px;
+      border: solid #00528a 25px;
+      margin-bottom: -5px;
+      margin-top: -5px;
+}
 
     .six_small {
       display: none;
@@ -202,12 +311,12 @@
    width: 13em;
    height: 13em;
    margin: 8px;
-   border: solid #00558a 5px;
+   border: solid #00528a 5px;
    }
    .question {
      color: white;
      text-align: center;
-     background-color: #00558a;
+     background-color: #00528a;
    }
 
    .answer {
@@ -230,8 +339,7 @@
     color: #f7a31c;
     text-align: center;
     font-size: 1em;
-    -webkit-text-stroke: 0.3px white;
-    background-color: #004681;
+    background-color: #00528a;
     margin: 0px;
     margin-bottom: -11px;
     padding: 1em;
@@ -260,27 +368,182 @@
   }
 
   .six_small {
-    color: #00558a;
+    color: #00528a;
     text-align: center;
-    font-size: 29px;
+    font-size: 28px;
     font-family: 'Wendy One', cursive;
     padding: 30px;
   }
 
   .update h3 {
-    color: #00558a;
+    color: #ff9300;
     text-align: center;
     font-size: 36px;
-    font-family: 'Wendy One', cursive;
+    font-family: 'Spicy Rice', cursive;
     padding: 30px;
+    background-color: rgba(0, 74, 146, 0.08);
+
+
   }
 
   .update {
-    color: #00558a;
+    color: #00528a;
     text-align: left;
     font-size: 23px;
     font-family: Arial, cursive;
     padding: 30px;
   }
 
+
+  .question {
+    font-size: 22px;
   }
+
+  .answer {
+    color: #ff610c;
+    text-align: center;
+    font-size: 22px;
+    height: 55px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
+    font-size: 20px;
+    height: 75px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .img-circle {
+  width: 9em;
+  height: 9em;
+  margin: 8px;
+  border: solid #00528a 5px;
+  }
+
+  .canada_day {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-family: 'Rancho', arial;
+
+  }
+
+
+  .canada_day .img-thumbnail {
+    display: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+}
+
+
+.ottawa_update {
+  display: none;
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Wendy One', cursive;
+    font-size: 2.3em;
+    margin: 1.4em;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.tab button {
+
+}
+#summer_img {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+.congrats {
+  font-family: 'Wendy One', arial;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* js slide show */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 80%;
+  border: 0;
+  height: 25em;
+  margin-left: 10%
+
+  }
+
+a {
+  font-size: 1.6em;
+  text-align: center;
+  margin-left: 25%
+}
