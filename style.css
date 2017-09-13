@@ -6,9 +6,6 @@
 
  }
 
-
-
-
    .image {
       width: 100%;
       text-align: center;
@@ -546,4 +543,13 @@ a {
   font-size: 1.6em;
   text-align: center;
   margin-left: 25%
+}
+
+
+.frank {
+  margin-left: 17%;
+}
+
+.frank img {
+  width: 80%;
 }
