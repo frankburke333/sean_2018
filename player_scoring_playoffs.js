@@ -18,10 +18,11 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
     $('html, body').animate({
-    scrollTop: $(".active").offset().top + (+230)
+    scrollTop: $(".active").offset().top + (+290)
 }, 1000);
 }
 
+$('.video').click(function(){this.paused?this.play():this.pause();});
 
 
 // slide show script
@@ -32,11 +33,11 @@ function openCity(evt, cityName) {
 
     // Default settings
     var settings = $.extend({
-      "auto": false,             // Boolean: Animate automatically, true or false
+      "auto": true,             // Boolean: Animate automatically, true or false
       "speed": 400,             // Integer: Speed of the transition, in milliseconds
       "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds
-      "pager": true,           // Boolean: Show pager, true or false
-      "nav": true,             // Boolean: Show navigation, true or false
+      "pager": false,           // Boolean: Show pager, true or false
+      "nav": false,             // Boolean: Show navigation, true or false
       "random": false,          // Boolean: Randomize the order of the slides, true or false
       "pause": false,           // Boolean: Pause on hover, true or false
       "pauseControls": true,    // Boolean: Pause when hovering controls, true or false
@@ -87,7 +88,7 @@ function openCity(evt, cityName) {
         $pager = $("<ul class='" + namespace + "_tabs " + namespaceIdx + "_tabs' />"),
 
         // Styles for visible and hidden slides
-        visible = {"float": "left", "position": "relative", "opacity": 1, "zIndex": 2},
+        visible = {"float": "left", "position": "relative","margin":"auto", "opacity": 1, "zIndex": 2},
         hidden = {"float": "none", "position": "absolute", "opacity": 0, "zIndex": 1},
 
         // Detect transition support

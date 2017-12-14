@@ -6,6 +6,29 @@
 
  }
 
+
+
+
+
+
+
+
+ @keyframes animatedBackground {
+    from { background-position: -100% 0; }
+    to { background-position: 100% 0; }
+ }
+
+ #animate-area   {
+     width: 100vw;
+     height: 100vw;
+     background-image: url('images/social_canada.jpg');
+     background-position: 0px 0px;
+     background-repeat: repeat-x;
+     animation: animatedBackground 130s linear infinite;
+ }
+
+
+
    .image {
       width: 100%;
       text-align: center;
@@ -23,22 +46,30 @@
    .gif {
      position: absolute;
      position: absolute;
-     width: 7em;
+     width: 8em;
      top: 0.6em;
      right: 0em;
    }
 
    .reverse_gif {
      position: absolute;
-     width: 7em;
+     width: 8em;
      top: 0.6em;
      left: 0em;
    }
 
 
 
-   .main_header {
-
+   .winter_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 8em;
+     background-color: none;
+     margin: 0px;
    }
 
    .main_header h1{
@@ -231,14 +262,14 @@
     .gif {
       position: absolute;
       position: absolute;
-      width: 7em;
+      width: 8em;
       top: 0.6em;
       right: 0em;
     }
 
     .reverse_gif {
       position: absolute;
-      width: 7em;
+      width: 8em;
       top: 0.6em;
       left: 0em;
     }
@@ -279,7 +310,7 @@
       color: #00528a;
       text-align: center;
       font-size: 69px;
-      font-family: 'Wendy One', cursive;
+      font-family: 'Righteous', cursive;
       padding: 60px;
       border: solid #00528a 25px;
       margin-bottom: -5px;
@@ -375,13 +406,15 @@
   .update h3 {
     color: #ff9300;
     text-align: center;
-    font-size: 36px;
+    font-size: 1.3em;
     font-family: 'Spicy Rice', cursive;
     padding: 30px;
     background-color: rgba(0, 74, 146, 0.08);
 
 
   }
+
+
 
   .update {
     color: #00528a;
@@ -459,11 +492,11 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     transition: 0.3s;
     font-family: 'Wendy One', cursive;
     font-size: 2.3em;
-    margin: 1.4em;
+    text-align: center;
+    margin-left: 45%
 }
 
 /* Change background color of buttons on hover */
@@ -495,12 +528,21 @@ div.tab button.active {
 }
 
 .congrats {
-  font-family: 'Wendy One', arial;
-  font-size: 1.5em;
-  font-weight: bold;
+  color: #f87c20;
   text-align: center;
+  font-size: 85px;
+  font-family: 'Spicy Rice', cursive;
+  padding: 28px;
+  border: solid #00528a 5px;
+  border-radius: 15px;
+  background-color: rgba(0, 74, 146, 0.08);
 }
 
+.congrats_end {
+  font-family: 'Spicy Rice', cursive;
+  text-align: center;
+  font-size: 2em;
+}
 
 /* js slide show */
 
@@ -511,6 +553,8 @@ div.tab button.active {
   width: 100%;
   padding: 0;
   margin: 0;
+  margin-left: 8%;
+  margin-top: 10px;
   }
 
 .rslides li {
@@ -520,6 +564,7 @@ div.tab button.active {
   width: 100%;
   left: 0;
   top: 0;
+  margin-top: 10px;
   }
 
 .rslides li:first-child {
@@ -532,10 +577,12 @@ div.tab button.active {
   display: block;
   height: auto;
   float: left;
-  width: 80%;
-  border: 0;
-  height: 25em;
-  margin-left: 10%
+  position: relative !important;
+  margin: auto !important;  border: 0;
+  height: 29em;
+  margin-left: 8%;
+  max-width: 85%;
+
 
   }
 
@@ -547,9 +594,35 @@ a {
 
 
 .frank {
-  margin-left: 17%;
+  margin-left: 1em;
 }
 
 .frank img {
   width: 80%;
+}
+
+img.jack {
+  width: 5em;
+  margin-left: 44%;
+}
+
+.friends {
+  text-align: center;
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+video {
+  margin-top: 1em;
+}
+
+.play {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #00528a;
+  margin-top: 15px;
 }
