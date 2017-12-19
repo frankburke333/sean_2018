@@ -359,12 +359,24 @@
 
     #animate-area   {
         width: 100vw;
-        height: 70vw;
+        height: 100vw;
         background-image: url('images/sean_join.jpeg');
         background-position: 0px 0px;
         background-repeat: repeat-x;
-        animation: animatedBackground 130s linear infinite;
+        animation: animatedBackground 80s linear infinite;
     }
+   
+    .winter_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 5em;
+     background-color: none;
+     margin: 0px;
+   }
 
   .main_header {
     display: none;
